@@ -14,27 +14,27 @@ while i <= 10:
         print("Tie You Both Entered Same")
     elif computerShape == "W" and userShape == "S":
         print(("Computer Enter", computerShape))
-        print("👉 Snake Drink Water")
+        print(" Snake Drink Water")
         userScore += 1
     elif computerShape == "S" and userShape == "W":
         print(("Computer Enter", computerShape))
-        print("👉 Snake Drink Water")
+        print(" Snake Drink Water")
         computerScore += 1
     elif computerShape == "G" and userShape == "W":
         print(("Computer Enter", computerShape))
-        print("👉 Gun Drowning in Water ")
+        print(" Gun Drowning in Water ")
         userScore += 1
     elif computerShape == "W" and userShape == "G":
         print(("Computer Enter", computerShape))
-        print("👉 Gun Drowning in Water ")
+        print(" Gun Drowning in Water ")
         computerScore += 1
     elif computerShape == "S" and userShape == "G":
         print(("Computer Enter", computerShape))
-        print("👉 Gun Shoot the Snake")
+        print(" Gun Shoot the Snake")
         userScore += 1
     elif computerShape == "G" and userShape == "S":
         print(("Computer Enter", computerShape))
-        print("👉 Gun Shoot the Snake")
+        print(" Gun Shoot the Snake")
         computerScore += 1
     else:
         print(":(")
@@ -48,10 +48,10 @@ print("\n\n##### Snake Water Gun #####")
 print("*******************************************")
 if userScore < computerScore:
     print(
-        f"😭 Sorry You lose the game 😭\n computer win the "
+        f"  Sorry you lost the game \n computer has won the "
         f"game with {computerScore} score"
     )
 elif userScore == computerScore:
-    print("😅 Game is Tie Play Again 😅")
+    print(" Game is a tie! Play Again ")
 else:
-    print(f"😄 You Win the Game with {userScore} score 😄")
+    print(f" You won the Game with {userScore} score ")
